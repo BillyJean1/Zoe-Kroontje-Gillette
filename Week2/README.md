@@ -20,10 +20,13 @@ Het behalen van het testresultaat wordt gedaan door het aanhouden van de volgend
 #### Resultaat
 Het resultaat van het onderzoek is zoals beschreven in de verwachtingen. Dit ziet er als volgt uit:
 ![screen](https://i.imgur.com/7YaLNYr.png)
+In de afbeelding worden de id's van de gevonden devices weergegeven. De gevonden devices hebben schijnbaar geen naam, dus deze wordt voor de komma daarom ook niet getoond.
 
-De app die is voortgekomen uit het testen bewijst niet in volledigheid de hypothese omdat deze er alleen toe in staat is om BLE devices te vinden. BLE devices zouden smartwatches kunnen zijn bijvoorbeeld, iets dat niet maar een minderheid van de pretpark/evenement bezoekers zullen hebben. Hierdoor wordt maar een klein segment van de bezoekers gedekt. 
+De app die is voortgekomen uit het testen bewijst niet in volledigheid de hypothese omdat deze er alleen toe in staat is om BLE devices te vinden. BLE devices zouden smartwatches, apple pens of bluetooth boxen kunnen zijn bijvoorbeeld, iets dat maar een minderheid van de pretpark/evenement bezoekers zullen hebben. Hierdoor wordt maar een klein segment van de bezoekers gedekt. 
 
 Het uitbreiden van de app met de mogelijkheid om zelf een signaal uit te zenden en andere devices op te zoeken die ook dit zelfde signaal uitzenden (dit signaal is dan in de vorm van het device id) zou er voor zorgen dat de functionaliteit meer bruikbaar zou worden voor het bewijzen van de hypothese. Dit zou er namelijk voor zorgen dat alle devices die dezelfde app hebben, binnen het bluetooth bereik van de zoekende device, kunnen worden gevonden.
+
+De voorgestelde uitbreiding zal niet in de aankomende weken worden uitgewerkt tenzij deze wordt benut voor het project product.
 
 Basis Android Applicatie
 ----------------
