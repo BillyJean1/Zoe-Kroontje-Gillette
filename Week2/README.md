@@ -1,6 +1,6 @@
 Ionic Bluetooth
 ----------------
-###### Hypothese 
+#### Hypothese 
 Er kan middels Bluetooth in Ionic worden achterhaald hoe druk een gebied is.
 
 ###### Motivatie
