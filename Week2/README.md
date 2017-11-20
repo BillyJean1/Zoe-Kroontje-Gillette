@@ -1,12 +1,12 @@
 Ionic Bluetooth
 ----------------
-**hypothese:**  
+#### Hypothese 
 Er kan middels Bluetooth in Ionic worden achterhaald hoe druk een gebied is.
 
 ##### Motivatie
-De motivatie voor het doen van dit onderzoek komt voort uit de wens van de opdrachtgever van het project. Deze wil namelijk crowd-control gaan toepassen bij evenementen en pretparken. Voor crowd-control is het gegeven hoeveel mensen er aanwezig zijn in een bepaalde radius (tussen 1-10 meter, https://nl.wikipedia.org/wiki/Bluetooth) daarom van toegevoegde waarde, omdat dit wat zegt over hoe druk een gebied is.
+De motivatie voor het doen van dit onderzoek komt voort uit de wens van de opdrachtgever van het project. Deze wil namelijk crowd- control gaan toepassen bij evenementen en pretparken. Voor crowd-control is het gegeven hoeveel mensen er aanwezig zijn in een bepaalde radius (tussen 1-10 meter, https://nl.wikipedia.org/wiki/Bluetooth) daarom van toegevoegde waarde, omdat dit wat zegt over hoe druk een gebied is.
 
-**testopzet:**  
+#### Testopzet
 De gestelde hypothese van dit onderzoek kan heel breed worden genomen aangezien Bluetooth complex in elkaar steekt. Maar omwille de tijd zal de hypothese zou eenvoudig mogelijk worden getest. Dit wordt gedaan door het bouwen van een ionic app die een simpele bluetooth toepassing bevat.
 
 ##### Verwacht test resultaat
@@ -14,20 +14,21 @@ De gestelde hypothese van dit onderzoek kan heel breed worden genomen aangezien 
 ##### Methode
 
 
-**resultaat:**  
+#### Resultaat
 Beschrijf in hoeverre de test uitsluitsel heeft gegeven 
 over de hypothese
 
 
 Basis Android Applicatie
 ----------------
-**hypothese:**  
+
+#### Hypothese 
 Er kan met Android Studio een basis Android applicatie worden gebouwd.
 
 ##### Motivatie
 De motivatie voor dit onderzoek is om een introductie te krijgen tot native Android development. Deze kennis zal dan in vervolgonderzoeken met betrekking tot Android ontwikkeling kunnen worden toegepast. 
 
-**testopzet:**  
+#### Testopzet
 De gestelde hypothese van dit onderzoek biedt een zeer plausibel resultaat aan: er kan een applicatie worden gebouwd voor Android met tooling die gemaakt is om dat te kunnen. Het testen hiervan zal worden gedaan door het bouwen van een simpele app voor Android.
 
 ##### Verwacht test resultaat
@@ -37,6 +38,6 @@ De app die gebouwd wordt zal in Android Studio worden aangemaakt. De app moet er
 Het behalen van het test resultaat zal worden gedaan middels het volgen van een video tutorial.
 Tutorial: https://www.youtube.com/watch?v=F-k5gwz_91o 
  
-**resultaat:**  
+#### Resultaat
 Beschrijf in hoeverre de test uitsluitsel heeft gegeven 
 over de hypothese
