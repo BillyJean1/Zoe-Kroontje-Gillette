@@ -5,8 +5,8 @@ Deze week wordt verdiept in de mogelijkheden rondom het gebruik van bluetooth in
 
 In poc.md worden beide experimenten uitgebreid toegelicht.
 
-1. [Ionic Native: BLE](https://ionicframework.com/docs/native/ble/)  
-De link verwijst naar de documentatie van de ionic native BLE plugin. Deze wordt samen met een tutorial (zie poc.md voor de link hiervan) benut voor het uitwerken van een simpele bluetooth app.
+1. [Ionic Bluetooth](https://github.com/BillyJean1/Zoe-Kroontje-Gillette/tree/master/Week2/poc/IonicBluetooth)  
+De nieuwe tech die hier te vinden is betreft een implementatie van een Ionic applicatie die ertoe in staat is te scannen naar en vinden van bluetooth low energy (BLE) devices.
 
-2. [Android Development tutorial](https://www.youtube.com/watch?v=F-k5gwz_91o)  
-In deze tutorial wordt een basis applicatie gemaakt. De basis applicatie introduceert de interface builder en het koppelen van code aan interface elementen.
+2. [Basis Android Applicatie](https://github.com/BillyJean1/Zoe-Kroontje-Gillette/tree/master/Week2/poc/MyApplication)  
+De nieuwe tech die hier te vinden is betreft een basis android applicatie die de interface builder en het koppelen van code aan interface elementen introduceert. 
