@@ -19,7 +19,7 @@ Het behalen van het testresultaat wordt gedaan door het aanhouden van de volgend
 
 #### Resultaat
 Het resultaat van het onderzoek is zoals beschreven in de verwachtingen. Dit ziet er als volgt uit:
-![screen](https://i.imgur.com/7YaLNYr.png)
+![screen]("https://i.imgur.com/7YaLNYr.png" width="200" height="400")
 In de afbeelding worden de id's van de gevonden devices weergegeven. De gevonden devices hebben schijnbaar geen naam, dus deze wordt voor de komma daarom ook niet getoond.
 
 De app die is voortgekomen uit het testen bewijst niet in volledigheid de hypothese omdat deze er alleen toe in staat is om BLE devices te vinden. BLE devices zouden smartwatches, apple pens of bluetooth boxen kunnen zijn bijvoorbeeld, iets dat maar een minderheid van de pretpark/evenement bezoekers zullen hebben. Hierdoor wordt maar een klein segment van de bezoekers gedekt. 
