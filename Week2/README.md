@@ -19,7 +19,7 @@ Het behalen van het testresultaat wordt gedaan door het aanhouden van de volgend
 
 #### Resultaat
 Het resultaat van het onderzoek is zoals beschreven in de verwachtingen. Dit ziet er als volgt uit:
-![screen](https://i.imgur.com/7YaLNYr.png =250x250)
+![screen](https://i.imgur.com/7YaLNYr.png  | width=200 | height= 200)
 In de afbeelding worden de id's van de gevonden devices weergegeven. De gevonden devices hebben schijnbaar geen naam, dus deze wordt voor de komma daarom ook niet getoond. De code hier achter is te vinden in de poc map onder 'IonicBluetooth'.
 
 Het ophalen van alle BLE devices wordt gedaan door het volgende stukje code, die wordt aangeroepen bij het klikken op de 'scan' knop:
