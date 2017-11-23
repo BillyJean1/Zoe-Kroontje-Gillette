@@ -19,10 +19,25 @@ Het behalen van het testresultaat wordt gedaan door het aanhouden van de volgend
 
 #### Resultaat
 Het resultaat van het onderzoek is zoals beschreven in de verwachtingen. Dit ziet er als volgt uit:
-![screen]("https://i.imgur.com/7YaLNYr.png" width="200" height="400")
-In de afbeelding worden de id's van de gevonden devices weergegeven. De gevonden devices hebben schijnbaar geen naam, dus deze wordt voor de komma daarom ook niet getoond.
+![screen](https://i.imgur.com/7YaLNYr.png =250x250)
+In de afbeelding worden de id's van de gevonden devices weergegeven. De gevonden devices hebben schijnbaar geen naam, dus deze wordt voor de komma daarom ook niet getoond. De code hier achter is te vinden in de poc map onder 'IonicBluetooth'.
 
-De app die is voortgekomen uit het testen bewijst niet in volledigheid de hypothese omdat deze er alleen toe in staat is om BLE devices te vinden. BLE devices zouden smartwatches, apple pens of bluetooth boxen kunnen zijn bijvoorbeeld, iets dat maar een minderheid van de pretpark/evenement bezoekers zullen hebben. Hierdoor wordt maar een klein segment van de bezoekers gedekt. 
+Het ophalen van alle BLE devices wordt gedaan door het volgende stukje code, die wordt aangeroepen bij het klikken op de 'scan' knop:
+```
+  startScanning() {
+    BLE.startScan([]).subscribe(device => {
+      this.zone.run(() => {
+        this.devices.push(device);
+        this.gettingDevices = false;
+      });
+      });
+    this.gettingDevices = true;
+  }
+```
+Deze code gebruikt de BLE plugin van ionic native om het scannen naar devices te starten. Tijdens het scannen hierna wordt er een laad icoontje getoond dus wordt de boolean 'gettingDevices' getoggled tijdens het scannen. Als er devices zijn gevonden dan worden deze in de NgZone in een device array gezet, welke getoond wordt in de ui van de app. Dit wordt in de NgZone gedaan omdat de ui anders niet update.
+
+###### Tergukoppeling hypothese
+De app die is voortgekomen uit het testen bewijst niet in volledigheid de hypothese. Dit komt omdat de app er alleen toe in staat is om BLE devices te vinden. BLE devices zouden smartwatches, apple pens of bluetooth boxen kunnen zijn bijvoorbeeld, iets dat maar een minderheid van de pretpark/evenement bezoekers (mee) zullen hebben. Hierdoor wordt maar een klein segment van de bezoekers gedekt. 
 
 Het uitbreiden van de app met de mogelijkheid om zelf een signaal uit te zenden en andere devices op te zoeken die ook dit zelfde signaal uitzenden (dit signaal is dan in de vorm van het device id) zou er voor zorgen dat de functionaliteit meer bruikbaar zou worden voor het bewijzen van de hypothese. Dit zou er namelijk voor zorgen dat alle devices die dezelfde app hebben, binnen het bluetooth bereik van de zoekende device, kunnen worden gevonden.
 
@@ -69,3 +84,6 @@ De code weet over welke TextView/Button/EditText het gaat doordat deze op een an
 Button calcbutton = (Button) findViewById(R.id.calculate);
 ```
 Dit stukje code doet dus een beroep op de findByViewId() methode van de AppCompatActivity klasse van Android Studio, deze klasse wordt via inheritance beschikbaar in de MainActivity klas. De methode neemt een id als parameter. Dit moet het id zijn van een ui element. Het id van dit element wordt gezet bij het toevoegen van het element in de main_content.xml, wat gelijksoortig is aan Main.storyboard in swift. Deze id moest voor alle gebruikte elementen worden aangepast zodat deze uniek is, anders zal deze in de code niet gevonden kunnen worden. In het bovenstaande voorbeeld heeft de button als id 'calculate'.
+
+###### Tergukoppeling hypothese
+De hypothese wordt door de uitwerking volledig bewezen.
