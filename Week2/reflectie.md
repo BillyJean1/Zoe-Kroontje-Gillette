@@ -20,7 +20,7 @@ Over de samenwerking van de projectgroep heb ik geen klachten, deze verliep zeer
 
 ### Afgelopen week
 
-1. Wat ging er afgelopen week goed?
+#####  Wat ging er afgelopen week goed?
 In de tweede week van het project is er heel veel gericht op het concepting proces. Dit houdt in dat de resultaten van gehouden onderzoeken zijn uitgewerkt, de probe studies zijn uitgewerkt en dat er een eerste concept is bedacht. Hierbij is er aan de MAD studenten geleerd hoe ze moeten clusteren om zo het probleemgebied beter te leren kennen en inspiratie voor het concept op te doen. 
 Deze handeling zag er als volgt uit:
 
@@ -34,12 +34,12 @@ Dit proces vond ik erg interessant om te leren en voelde als een nuttige bijdrag
 
 Ook vond ik het goed gaan dat er was gekozen om maandag uit te trekken voor het uitwerken van de twee onderzoeken die elk MAD lid per week moet doen.
 
-2. Wat ging er niet goed, waar heb je je aan geërgerd, wat moet er niet meer gebeuren?
+#####  Wat ging er niet goed, waar heb je je aan geërgerd, wat moet er niet meer gebeuren?
 Wat deze week minder ging is dat er vaak momenten waren waarop de groep het idee had dat er niks te doen was, dit kwam doordat de resultaten van de probe study pas later in de week weer binnen werden gehaald. Hier moest op gewacht worden voordat er een concept kon worden bedacht. 
 
 Wanneer er wel eenmaal werk te doen was kwam het voor dat mensen concentratie verloren bij gezamenlijke concepting activiteiten. Dit stoorde enorm omdat zij hierdoor andere groepsleden ook gingen afleiden waardoor het werkproces van de groep werd verstoord.
 
 Ten slotte voel ik persoonlijk dat het project erg traag verloopt wat resultaten betreft. Dit maakt mij persoonlijk erg onrustig omdat ik graag concrete besluiten wil maken maar we telkens over dezelfde punten lijken te discussieren. 
  
-3. Wat ga je komende proberen te verbeteren?
+##### Wat ga je komende proberen te verbeteren?
 Komende week ga ik proberen meer concrete besluiten door te laten voeren in de groep, zodat er in de week daarop eindelijk een duidelijk beeld is van wat er gemaakt zal gaan worden. Ik denk dat dit doordat de resultaten van de onderzoeken al binnen zijn een zeer haalbaar doel is, hier hoeft namelijk niet meer op worden gewacht. 
