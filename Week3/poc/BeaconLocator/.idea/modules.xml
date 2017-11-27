@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BeaconLocator.iml" filepath="$PROJECT_DIR$/BeaconLocator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Zoë\Documents\MAD\Onderzoeken\Week3\poc\BeaconLocator\BeaconLocator.iml" filepath="C:\Users\Zoë\Documents\MAD\Onderzoeken\Week3\poc\BeaconLocator\BeaconLocator.iml" />
+      <module fileurl="file://C:\Users\Zoë\Documents\MAD\Onderzoeken\Week3\poc\BeaconLocator\app\app.iml" filepath="C:\Users\Zoë\Documents\MAD\Onderzoeken\Week3\poc\BeaconLocator\app\app.iml" />
     </modules>
   </component>
 </project>

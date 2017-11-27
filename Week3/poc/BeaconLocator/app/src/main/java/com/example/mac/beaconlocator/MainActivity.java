@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         beaconText = (TextView) findViewById(R.id.beaconText) ;
 
         beaconManager = new BeaconManager(getApplicationContext());
-
         beaconManager.connect(new BeaconManager.ServiceReadyCallback() {
             @Override
             public void onServiceReady() {
