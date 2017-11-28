@@ -36,7 +36,7 @@ Het ophalen van alle BLE devices wordt gedaan door het volgende stukje code, die
 ```
 Deze code gebruikt de BLE plugin van ionic native om het scannen naar devices te starten. Tijdens het scannen hierna wordt er een laad icoontje getoond dus wordt de boolean 'gettingDevices' getoggled tijdens het scannen. Als er devices zijn gevonden dan worden deze in de NgZone in een device array gezet, welke getoond wordt in de ui van de app. Dit wordt in de NgZone gedaan omdat de ui anders niet update.
 
-###### Tergukoppeling hypothese
+###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst niet in volledigheid de hypothese. Dit komt omdat de app er alleen toe in staat is om BLE devices te vinden. BLE devices zouden smartwatches, apple pens of bluetooth boxen kunnen zijn bijvoorbeeld, iets dat maar een minderheid van de pretpark/evenement bezoekers (mee) zullen hebben. Hierdoor wordt maar een klein segment van de bezoekers gedekt. 
 
 Het uitbreiden van de app met de mogelijkheid om zelf een signaal uit te zenden en andere devices op te zoeken die ook dit zelfde signaal uitzenden (dit signaal is dan in de vorm van het device id) zou er voor zorgen dat de functionaliteit meer bruikbaar zou worden voor het bewijzen van de hypothese. Dit zou er namelijk voor zorgen dat alle devices die dezelfde app hebben, binnen het bluetooth bereik van de zoekende device, kunnen worden gevonden.
