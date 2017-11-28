@@ -60,5 +60,5 @@ Ten slotte worden er listeners opgezet om aan te geven wanneer je in de region v
 ```
 Deze methoden gebruik ik om de tekst in het scherm (zie afbeelding) in te vullen met passende informatie. Hiervoor gebruik ik de 'getBeaconDescription(beacons)' methode die ik heb gemaakt, die simpelweg de beschrijvingen van alle nearby beacons in een string formaat terug geeft. 
 
-###### Tergukoppeling hypothese
+###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
