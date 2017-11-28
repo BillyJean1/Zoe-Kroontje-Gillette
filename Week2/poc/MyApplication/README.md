@@ -40,5 +40,5 @@ Button calcbutton = (Button) findViewById(R.id.calculate);
 ```
 Dit stukje code doet dus een beroep op de findByViewId() methode van de AppCompatActivity klasse van Android Studio, deze klasse wordt via inheritance beschikbaar in de MainActivity klas. De methode neemt een id als parameter. Dit moet het id zijn van een ui element. Het id van dit element wordt gezet bij het toevoegen van het element in de main_content.xml, wat gelijksoortig is aan Main.storyboard in swift. Deze id moest voor alle gebruikte elementen worden aangepast zodat deze uniek is, anders zal deze in de code niet gevonden kunnen worden. In het bovenstaande voorbeeld heeft de button als id 'calculate'.
 
-###### Tergukoppeling hypothese
+###### Terugkoppeling hypothese
 De hypothese wordt door de uitwerking volledig bewezen.
