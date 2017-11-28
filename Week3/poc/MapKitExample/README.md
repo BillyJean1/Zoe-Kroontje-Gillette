@@ -23,5 +23,5 @@ Het resultaat is zoals beschreven in de test opzet.
 code
 ```
 
-###### Tergukoppeling hypothese
+###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
