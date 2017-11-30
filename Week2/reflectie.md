@@ -1,9 +1,6 @@
 Reflectie
 ==========
 
-NOG NIET AF !!!! NEEDS REVIEW
- 
-
 ### Vorige week
 Vorige week is er geen reflectie geschreven. Deze week was de eerste week van het project en heb ik ervaren als erg chaotisch. Zo was de maandag al kwijt aan het wachten op een groepsindeling en op de opdrachtgever die wij zouden gaan hebben dit project. Vervolgens was er de dinsdag hierna amper contact te krijgen met de begeleiders van het project waardoor er maar onbegeleid een begin moest worden gemaakt. Opzich ging dit erg goed. Er werd gesproken met de opdrachtgever, er werd een doelgroep gekozen en er werd een soort evenement gekozen die zou worden onderzocht. Woensdag was er hierom eindelijk een beeld tot stand aan het komen wat er gedaan moest worden, dit was erg fijn. Dit gaf namelijk houvast ondanks dat de begeleiders nog niks van zich lieten horen.
 
