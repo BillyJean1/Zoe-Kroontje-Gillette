@@ -17,12 +17,21 @@ Voor het realiseren van het test resultaat zal er een tutorial worden gevolgd. E
 * https://www.youtube.com/watch?v=wU1XN-Gk1LM
 
 #### Resultaat
-Het resultaat is zoals beschreven in de test opzet. 
+Het resultaat is zoals beschreven in de test opzet.
 <br><img src="https://i.imgur.com/y82Hwk8.png" width="300" height="500"><br>
 
+De effectieve code die er voor zorgt dat er een kaart wordt getoond in Swift is uiteindelijk maar simpel en maakt gebruik van het MapKit framework:
+
 ```
-code
+let zoom =  1000
+let coordinate = CLLocationCoordinate2DMake(51.6493838, 5.0456024)
+mapkitView.setRegion(MKCoordinateRegionMakeWithDistance(coordinate, CLLocationDistance(zoom), CLLocationDistance(zoom)), animated: true)
+let baronCoordinate = CLLocationCoordinate2DMake(51.6481221, 5.0507569)
+let baronPin = MapPin(title: "Baron 1898", subtitle: "Achtbaan", coordinate: baronCoordinate)
+mapkitView.addAnnotation(baronPin)
 ```
+
+Hierbij is zoom de radius in meters, hier dus 1km. De eerste coordinate is van de Efteling en de tweede is van de attractie de Baron. De setRegion() functie bepaalt wat het middelpunt is van de kaart (de kaart is een ui element van het type MKMapView) en de MapPin is een subklasse van MKAnnotation die ik heb aangemaakt die het mogelijk maakt om een 'pin' toe te voegen aan de kaart.
 
 ###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
