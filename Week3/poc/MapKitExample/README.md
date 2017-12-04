@@ -18,7 +18,7 @@ Voor het realiseren van het test resultaat zal er een tutorial worden gevolgd. E
 
 #### Resultaat
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/y82Hwk8.png" width="300" height="500"><br>
+<br><img src="https://i.imgur.com/BWeUp3i.png" width="300" height="500"><br>
 
 De effectieve code die er voor zorgt dat er een kaart wordt getoond in Swift is uiteindelijk maar simpel en maakt gebruik van het MapKit framework:
 
