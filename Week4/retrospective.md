@@ -9,16 +9,18 @@ Ennio Esseboom
 Ramon Schriks
 
 Datum: 07/12/17
+
 Voorbereiding: https://goo.gl/forms/hZRMYmxSSglwGZyq1 
+
 Resultaat:
 
 #### Hoe zie je een ideale samenwerking voor je?
 * Iedereen kent de capaciteiten van een ander en weet dus wat ze aan elkaar hebben. Zodoende kan je ook taken gericht delegeren
-*Iedereen heeft input en er wordt naar elkaar geluisterd. Iedereen heeft wel goede ideeën die meegenomen kunnen worden gedurende een project.
-*De ideale samenwerking is voor mij een samenwerking waarin alle neuzen dezelfde kant op staan en waarbij gezamenlijk wordt gewerkt naar een gezamenlijk doel. De sfeer en communicatie in de groep is goed wat ervoor zorgt dat iedereen gemotiveerd is om naar het gezamenlijke doel te werken. Verder vind ik het belangrijk dat er goed naar elkaar geluisterd wordt en elkaars mening wordt gerespecteerd.
-*Een ideale samenwerking vind ik als er goede communicatie plaatsvind. Dus als er discussies plaatsvinden kan iedereen zijn mening ook delen en wordt deze meegenomen in het besluit. Hiernaast vind ik het belangrijk dat er hard wordt gewerkt maar dat er ook een goede sfeer is.
-*Goede taakverdeling, iedereen weet waar de rest van de groep mee bezig is, overleg wanneer dingen anders lopen dan gepland en elkaar helpen als je vastloopt
-*Veel overleggen en elkaar aanvullen
+* Iedereen heeft input en er wordt naar elkaar geluisterd. Iedereen heeft wel goede ideeën die meegenomen kunnen worden gedurende een project.
+* De ideale samenwerking is voor mij een samenwerking waarin alle neuzen dezelfde kant op staan en waarbij gezamenlijk wordt gewerkt naar een gezamenlijk doel. De sfeer en communicatie in de groep is goed wat ervoor zorgt dat iedereen gemotiveerd is om naar het gezamenlijke doel te werken. Verder vind ik het belangrijk dat er goed naar elkaar geluisterd wordt en elkaars mening wordt gerespecteerd.
+* Een ideale samenwerking vind ik als er goede communicatie plaatsvind. Dus als er discussies plaatsvinden kan iedereen zijn mening ook delen en wordt deze meegenomen in het besluit. Hiernaast vind ik het belangrijk dat er hard wordt gewerkt maar dat er ook een goede sfeer is.
+* Goede taakverdeling, iedereen weet waar de rest van de groep mee bezig is, overleg wanneer dingen anders lopen dan gepland en elkaar helpen als je vastloopt
+* Veel overleggen en elkaar aanvullen
 
 
 #### Voldoet de samenwerking van de groep aan je antwoord op vraag 1? Waarom wel/niet?
