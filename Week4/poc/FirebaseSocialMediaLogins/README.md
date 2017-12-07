@@ -28,7 +28,7 @@ Voor het realiseren van de hypothese moest er voor elk van de social media kanal
 * Voor Twitter moest er een consumer key en consumer secret worden aangevraagd en de callback url van firebase worden toegevoegd.
 
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/ZRgnego.png" width="500" height="500"><br>
+<br><img src="https://i.imgur.com/ZRgnego.png" width="500" height="300"><br>
 
 
 ```
