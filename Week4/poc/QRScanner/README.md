@@ -28,4 +28,4 @@ code
 
 
 ###### Terugkoppeling hypothese
-De app die is voortgekomen uit het testen bewijst niet de hypothese. Dit komt doordat de tutorial geen werkend resultaat opleverde en er in de gegeven tijd niet nog verder aan kon worden gewerkt. Er wordt vernomen dat de tutorial geen werken resultaat leverde omdat deze was gericht op Swift 3.0, terwijl de programmeeromgeving Swift 4.0 hanteerd.
+De app die is voortgekomen uit het testen bewijst niet de hypothese. Dit komt doordat de tutorial geen werkend resultaat opleverde en er in de gegeven tijd niet nog verder aan kon worden gewerkt. Er wordt vernomen dat de tutorial geen werken resultaat leverde omdat deze was gericht op Swift 3.0, terwijl de programmeeromgeving Swift 4.0 hanteerd. Ook weerhoudt gebrek aan een iOS device (emulator werkt hiervoor niet) het verder uitzoeken van de QR mogelijkheden op dit huidige moment.
