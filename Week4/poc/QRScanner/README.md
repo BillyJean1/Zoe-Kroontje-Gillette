@@ -18,7 +18,7 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van een
 
 #### Resultaat
 Het visuele resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/undefined.jpg" width="300" height="500"><br>
+<br><img src="https://i.imgur.com/kh91C2N.jpg" width="300" height="500"><br>
 Echter is er vernomen dat dit niet functioneel compleet is. Deze scand namelijk niet actief de QR code, ondanks dat de tutorial in zijn volledigheid gevolgd is.
 
 De code die verantwoordelijk zou moeten zijn voor het scannen van de QR code is als volgt:
