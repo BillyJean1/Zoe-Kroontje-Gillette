@@ -14,7 +14,7 @@ De app die gebouwd wordt zall een camera view laten zien die je op een qr code m
 
 ###### Methode
 Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van een tutorial:
-* ??
+* http://www.theappguruz.com/blog/qrcode-reader-using-swift
 
 #### Resultaat
 Het visuele resultaat is zoals beschreven in de test opzet.
