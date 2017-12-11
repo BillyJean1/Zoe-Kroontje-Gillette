@@ -30,9 +30,11 @@ Voor het realiseren van de hypothese moest er voor elk van de social media kanal
 Het resultaat is zoals beschreven in de test opzet.
 <br><img src="https://i.imgur.com/ZRgnego.png" width="500" height="300"><br>
 
-
+Elk van de knoppen in het scherm is van een eigen type, waarbij er verder vaak geen extra code nodig is om de knop werkende te krijgen.
 ```
-code
+    @IBOutlet weak var fbLoginButton: FBSDKLoginButton!
+    @IBOutlet weak var twitterLoginButton: TWTRLogInButton!
+    @IBOutlet weak var googleLoginButton: GIDSignInButton!
 ```
 
 
