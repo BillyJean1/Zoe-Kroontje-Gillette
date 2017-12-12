@@ -21,11 +21,27 @@ Het visuele resultaat is zoals beschreven in de test opzet.
 <br><img src="https://i.imgur.com/kh91C2N.jpg" width="300" height="500"><br>
 Echter is er vernomen dat dit niet functioneel compleet is. Deze scand namelijk niet actief de QR code, ondanks dat de tutorial in zijn volledigheid gevolgd is.
 
-De code die verantwoordelijk zou moeten zijn voor het scannen van de QR code is als volgt:
+De code die verantwoordelijk zou moeten zijn voor het scannen van de QR code komt vanuit AVFoundation framework en is als volgt:
 ```
-code
+objCaptureVideoPreviewLayer = AVCaptureVideoPreviewLayer(session: objCaptureSession)
+        objCaptureVideoPreviewLayer?.videoGravity = AVLayerVideoGravityResizeAspectFill
+        objCaptureVideoPreviewLayer?.frame = view.layer.bounds
+        self.view.layer.addSublayer(objCaptureVideoPreviewLayer)
+        objCaptureSession?.startRunning()  
+```
+Deze code voegt een preview toe aan het scherm van de app, aldus wat de front camera ziet. De tutorial specificeerde dit niet, maar hiervoor was een permissie nodig om de camera te mogen gebruiken in de info.plist.
+
+Vervolgens komt het gedeelte dat een rode rand zou moeten toevoegen in de camera view aan de hand van de gevonden metadata (dus als er een qr code gevonden is), maar deze code lijkt niks te doen ondanks dat deze wel aangeroepen wordt.
+
+```
+vwQRCode = UIView()
+        vwQRCode?.layer.borderColor = UIColor.redColor().CGColor
+        vwQRCode?.layer.borderWidth = 5
+        self.view.addSubview(vwQRCode!)
+        self.view.bringSubviewToFront(vwQRCode!)
 ```
 
+Ik heb deze code gedebugged maar ben er in het beschikbare tijdsbestek (de tijd waarin ik een iOS device mocht lenen van Kevin) er niet achter gekomen waarom het niet werkt. Ik denk dat dit ligt aan een verandering in het AVFoundation framework, aangezien deze verantwoordelijk is voor het scannen naar een code in wat de camera vastlegt met zijn delegate method captureOutput.
 
 ###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst niet de hypothese. Dit komt doordat de tutorial geen werkend resultaat opleverde en er in de gegeven tijd niet nog verder aan kon worden gewerkt. Er wordt vernomen dat de tutorial geen werken resultaat leverde omdat deze was gericht op Swift 3.0, terwijl de programmeeromgeving Swift 4.0 hanteerd. Ook weerhoudt gebrek aan een iOS device (emulator werkt hiervoor niet) het verder uitzoeken van de QR mogelijkheden op dit huidige moment.
