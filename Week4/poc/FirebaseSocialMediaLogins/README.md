@@ -36,7 +36,35 @@ Elk van de knoppen in het scherm is van een eigen type, waarbij er verder vaak g
     @IBOutlet weak var twitterLoginButton: TWTRLogInButton!
     @IBOutlet weak var googleLoginButton: GIDSignInButton!
 ```
+Vervolgens kun je voor Facebook en Google een delegate overerven in de viewcontroller waardoor je een methode tot je beschikking hebt die aangeroepen wordt bij een succesvolle login. Hieronder is de Google 'didsignin' methode bijvoorbeeld weergegeven:
+```
+    func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!,
+              withError error: Error!) {
+        ...
+    }
+```
+Voor Twitter moet je echter een completion block specificeren. Hierin geef je aan wat er moet gebeuren op 'completion' van een login dus. 
 
+```
+        twitterLoginButton.logInCompletion = { session, error in
+            ...
+        }
+```
 
+Ten slotte kun je de gegevens van de logins in firebase opslaan als een user. Hierdoor kun je firebase auth dus via social media doen. Dit is niet geimplementeerd in mijn poc maar zou er voor google bijvoorbeeld zo uitzien:
+```
+guard let authentication = user.authentication else { return }
+  let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,
+                                                    accessToken: authentication.accessToken)
+Auth.auth().signIn(with: credential) { (user, error) in
+  if let error = error {
+    // ...
+    return
+  }
+  // User is signed in
+  // ...
+}
+}
+```
 ###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
