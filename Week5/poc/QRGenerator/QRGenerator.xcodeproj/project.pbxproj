@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F74061FE580BB003DB052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F74051FE580BB003DB052 /* AppDelegate.swift */; };
+		046F74081FE580BB003DB052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F74071FE580BB003DB052 /* ViewController.swift */; };
+		046F740B1FE580BB003DB052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F74091FE580BB003DB052 /* Main.storyboard */; };
+		046F740D1FE580BB003DB052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F740C1FE580BB003DB052 /* Assets.xcassets */; };
+		046F74101FE580BB003DB052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F740E1FE580BB003DB052 /* LaunchScreen.storyboard */; };
+		046F74171FE58200003DB052 /* QRCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046F74181FE58200003DB052 /* QRCode.framework */; };
+		48639211152F856BBA52D530 /* Pods_QRGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B102A8C22418C7EAE6E03E /* Pods_QRGenerator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046F74021FE580BB003DB052 /* QRGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F74051FE580BB003DB052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046F74071FE580BB003DB052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046F740A1FE580BB003DB052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046F740C1FE580BB003DB052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046F740F1FE580BB003DB052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046F74111FE580BB003DB052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F74181FE58200003DB052 /* QRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1270CDD19A31420C2DDC177E /* Pods-QRGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRGenerator/Pods-QRGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		32B102A8C22418C7EAE6E03E /* Pods_QRGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75162190A6A534424CE6563A /* Pods-QRGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRGenerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRGenerator/Pods-QRGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046F73FF1FE580BB003DB052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F74171FE58200003DB052 /* QRCode.framework in Frameworks */,
+				48639211152F856BBA52D530 /* Pods_QRGenerator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F73F91FE580BB003DB052 = {
+			isa = PBXGroup;
+			children = (
+				046F74041FE580BB003DB052 /* QRGenerator */,
+				046F74031FE580BB003DB052 /* Products */,
+				F14256AA94EC1A6B6E06875C /* Pods */,
+				7CAE9403A2202654E4497CA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		046F74031FE580BB003DB052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046F74021FE580BB003DB052 /* QRGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046F74041FE580BB003DB052 /* QRGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				046F74051FE580BB003DB052 /* AppDelegate.swift */,
+				046F74071FE580BB003DB052 /* ViewController.swift */,
+				046F74091FE580BB003DB052 /* Main.storyboard */,
+				046F740C1FE580BB003DB052 /* Assets.xcassets */,
+				046F740E1FE580BB003DB052 /* LaunchScreen.storyboard */,
+				046F74111FE580BB003DB052 /* Info.plist */,
+			);
+			path = QRGenerator;
+			sourceTree = "<group>";
+		};
+		7CAE9403A2202654E4497CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				046F74181FE58200003DB052 /* QRCode.framework */,
+				32B102A8C22418C7EAE6E03E /* Pods_QRGenerator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F14256AA94EC1A6B6E06875C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75162190A6A534424CE6563A /* Pods-QRGenerator.debug.xcconfig */,
+				1270CDD19A31420C2DDC177E /* Pods-QRGenerator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046F74011FE580BB003DB052 /* QRGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F74141FE580BB003DB052 /* Build configuration list for PBXNativeTarget "QRGenerator" */;
+			buildPhases = (
+				57DC6B1E0E1D174D613C7D87 /* [CP] Check Pods Manifest.lock */,
+				046F73FE1FE580BB003DB052 /* Sources */,
+				046F73FF1FE580BB003DB052 /* Frameworks */,
+				046F74001FE580BB003DB052 /* Resources */,
+				ED978237506BC2A180D01CCD /* [CP] Embed Pods Frameworks */,
+				D4BFF780B667EF98F9563723 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRGenerator;
+			productName = QRGenerator;
+			productReference = 046F74021FE580BB003DB052 /* QRGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046F73FA1FE580BB003DB052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					046F74011FE580BB003DB052 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 046F73FD1FE580BB003DB052 /* Build configuration list for PBXProject "QRGenerator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046F73F91FE580BB003DB052;
+			productRefGroup = 046F74031FE580BB003DB052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046F74011FE580BB003DB052 /* QRGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046F74001FE580BB003DB052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F74101FE580BB003DB052 /* LaunchScreen.storyboard in Resources */,
+				046F740D1FE580BB003DB052 /* Assets.xcassets in Resources */,
+				046F740B1FE580BB003DB052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57DC6B1E0E1D174D613C7D87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BFF780B667EF98F9563723 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRGenerator/Pods-QRGenerator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED978237506BC2A180D01CCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QRGenerator/Pods-QRGenerator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRGenerator/Pods-QRGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046F73FE1FE580BB003DB052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F74081FE580BB003DB052 /* ViewController.swift in Sources */,
+				046F74061FE580BB003DB052 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046F74091FE580BB003DB052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F740A1FE580BB003DB052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046F740E1FE580BB003DB052 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F740F1FE580BB003DB052 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046F74121FE580BB003DB052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046F74131FE580BB003DB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046F74151FE580BB003DB052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75162190A6A534424CE6563A /* Pods-QRGenerator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59VJ7954M2;
+				INFOPLIST_FILE = QRGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ica.MAD.Minor.544271.QRGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046F74161FE580BB003DB052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1270CDD19A31420C2DDC177E /* Pods-QRGenerator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59VJ7954M2;
+				INFOPLIST_FILE = QRGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ica.MAD.Minor.544271.QRGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F73FD1FE580BB003DB052 /* Build configuration list for PBXProject "QRGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F74121FE580BB003DB052 /* Debug */,
+				046F74131FE580BB003DB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F74141FE580BB003DB052 /* Build configuration list for PBXNativeTarget "QRGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F74151FE580BB003DB052 /* Debug */,
+				046F74161FE580BB003DB052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046F73FA1FE580BB003DB052 /* Project object */;
+}
