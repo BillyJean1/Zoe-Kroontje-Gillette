@@ -19,11 +19,19 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van de 
 #### Resultaat
 
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/ZRgnego.png" width="500" height="300"><br>
+<br><img src="https://i.imgur.com/0vhgVh2.png" width="300" height="500"><br>
 
+Voor elk van de QR opties (data/string/url) heb ik een functie aangemaakt die soortgelijk is aan de onderstaande:
 ```
-    code
+       func generateQRByString(string: String)-> QRCode?{
+        // String
+        var qrCode = QRCode(string)
+        qrCode?.backgroundColor = BACKGROUND_COLOR
+        qrCode?.color = QRCOLOR_STRING
+        return qrCode
+    }
 ```
+Hierin wordt een kleur gezet voor de achtergrond, een kleur voor de code zelf en er wordt een nieuwe QRCode aangemaakt waarin de data wordt gestopt.
 
 ###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
