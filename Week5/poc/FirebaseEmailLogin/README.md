@@ -19,12 +19,33 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van de 
 #### Resultaat
 
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/e5VA2Yx.png" width="500" height="300"><br>
-<br><img src="https://i.imgur.com/IBqdRyD.png" width="500" height="300"><br>
-<br><img src="https://i.imgur.com/e5VA2Yx.png" width="500" height="300"><br>
+<br><img src="https://i.imgur.com/e5VA2Yx.png" width="300" height="500"><br>
+<br><img src="https://i.imgur.com/IBqdRyD.png" width="300" height="500"><br>
 
+De effectieve code hierbij is voor zowel het inloggen als het aanmaken van een user erg gelijksoortig, voor het aanmaken van een user is het als volgt:
 ```
-    code
+   Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+                if error != nil{
+                    self.errorLabel.text = "User creation failed: \(error!)"
+                    print("\(error!)")
+                }else {
+                    self.errorLabel.text = "Created user!"
+
+                }
+            }
+```
+De parameters in de create user functie krijgen als inhoud de waarden die zijn ingevuld in de ui. Firebase voert hier zelf ookal enkele checks op uit om te controleren of de ingevoerde waarde valide is.
+
+Voor het inloggen wordt op Firebase wordt een andere methode aangeroepen maar die krijgt in principe dezelfde values mee:
+```
+  Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+                if error != nil{
+                    self.errorLabel.text = "Singin failed: \(error!)"
+                }else {
+                    self.errorLabel.text = "Signed in!"
+                }
+                
+            }
 ```
 
 ###### Terugkoppeling hypothese
