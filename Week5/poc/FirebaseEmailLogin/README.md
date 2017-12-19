@@ -19,7 +19,9 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van de 
 #### Resultaat
 
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/ZRgnego.png" width="500" height="300"><br>
+<br><img src="https://i.imgur.com/e5VA2Yx.png" width="500" height="300"><br>
+<br><img src="https://i.imgur.com/IBqdRyD.png" width="500" height="300"><br>
+<br><img src="https://i.imgur.com/e5VA2Yx.png" width="500" height="300"><br>
 
 ```
     code
