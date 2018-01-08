@@ -25,8 +25,26 @@ Het resultaat is zoals beschreven in de test opzet.
 
 Zoals te zien in de afbeelding wordt alleen het ReCrowd logo er in het storyboard in gezet. Het gradient wordt er code matig ingezet omdat er hiervoor enkele properties moeten worden gespecificeerd die niet toegankelijk zijn vanuit de UI opties van het storyboard.
 
+De gradient wordt getekend middels de volgende code:
+
 ```
-    code
+func setGradientBackground() {
+let colorTop =  UIColor(red: 151.0/255.0, green: 215.0/255.0, blue: 243.0/255.0, alpha: 1.0).cgColor
+let colorBottom = UIColor(red: 18.0/255.0, green: 107.0/255.0, blue: 189.0/255.0, alpha: 1.0).cgColor
+let gradientLayer = CAGradientLayer()
+gradientLayer.colors = [ colorTop, colorBottom]
+gradientLayer.locations = [ 0.0, 1.0]
+gradientLayer.frame = CGRect(x:0, y: 0, width: self.view.frame.width, height:self.view.frame.height/1.4)
+self.view.layer.addSublayer(gradientLayer)
+}
+```
+In deze functie wordt er onderscheid gemaakt tussen de kleur bovenin de gradient en de kleur onderin de gradient. Beide kleuren worden middels RGB bepaald. Deze kleuren worden meegegeven aan de CAGradientLayer klasse in de vorm van een array. Hierna wordt er bepaald vanaf waar tot waar het gradient moet lopen, dit is de 'locations' property.
+<br><img src="https://images0.cnblogs.com/i/607542/201406/180835350983550.png" width="200" height="200"><br>
+Het frame van de gradient wordt gelijk gesteld aan een percentage van de view waarin deze wordt gezet, hierna wordt deze toegevoegd aan de view.
+
+Hiernaast wordt er in de viewDidLoad nog de volgende code aangeroepen om er voor te zorgen dat het ReCrowd logo op de voorgrond van het gradient wordt getoond.
+```
+self.view.bringSubview(toFront: recrowdLogoImageView)
 ```
 
 Voor het resultaat is er ook gebruik gemaakt van de volgende bronnen om het uiterlijk van het storyboard te tweaken:
