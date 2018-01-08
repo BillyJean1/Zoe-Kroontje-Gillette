@@ -14,8 +14,7 @@ Het verwachte test resultaat zal ....
 
 ###### Methode
 Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van verscheidene resources:
-* https://github.com/SwiftyBeaver/SwiftyBeaver
-* https://gist.github.com/skreutzberger/7c396573796473ed1be2c6d15cafed34
+* https://www.youtube.com/watch?v=G5UkS4Mrepo
 
 #### Resultaat
 Het resultaat is zoals beschreven in de test opzet.
