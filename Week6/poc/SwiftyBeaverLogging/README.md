@@ -19,7 +19,7 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van ver
 
 #### Resultaat
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/PamwDuE.png" width="600" height="450"><br>
+<br><img src="https://i.imgur.com/jDNkG1F.png" width="600" height="450"><br>
 
 Om dit resultaat te bereiken heb ik een LoggingService gemaakt die in de init() alle configuratie settings afhandeld van SwiftyBeaver. Hierbij heb ik alleen het date format van de logberichten aanpasbaar gemaakt door deze als init parameter mee te geven.
 ```
