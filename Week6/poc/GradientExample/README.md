@@ -21,7 +21,7 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van ver
 
 #### Resultaat
 Het resultaat is zoals beschreven in de test opzet.
-<br><img src="https://i.imgur.com/PamwDuE.png" width="600" height="450"><br>
+<br><img src="https://i.imgur.com/jDNkG1F.png" width="600" height="450"><br>
 
 Zoals te zien in de afbeelding wordt alleen het ReCrowd logo er in het storyboard in gezet. Het gradient wordt er code matig ingezet omdat er hiervoor enkele properties moeten worden gespecificeerd die niet toegankelijk zijn vanuit de UI opties van het storyboard.
 

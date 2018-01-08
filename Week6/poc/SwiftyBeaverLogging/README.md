@@ -21,20 +21,27 @@ Voor het realiseren van het test resultaat zal er gebruik worden gemaakt van ver
 Het resultaat is zoals beschreven in de test opzet.
 <br><img src="https://i.imgur.com/PamwDuE.png" width="600" height="450"><br>
 
-De gradient wordt getekend middels de volgende code:
-
+Om dit resultaat te bereiken heb ik een LoggingService gemaakt die in de init() alle configuratie settings afhandeld van SwiftyBeaver. Hierbij heb ik alleen het date format van de logberichten aanpasbaar gemaakt door deze als init parameter mee te geven.
 ```
-func setGradientBackground() {
-    let colorTop =  UIColor(red: 151.0/255.0, green: 215.0/255.0, blue: 243.0/255.0, alpha: 1.0).cgColor
-    let colorBottom = UIColor(red: 18.0/255.0, green: 107.0/255.0, blue: 189.0/255.0, alpha: 1.0).cgColor
-    let gradientLayer = CAGradientLayer()
-    gradientLayer.colors = [ colorTop, colorBottom]
-    gradientLayer.locations = [ 0.0, 1.0]
-    gradientLayer.frame = CGRect(x:0, y: 0, width: self.view.frame.width, height:self.view.frame.height/1.4)
-    self.view.layer.addSublayer(gradientLayer)
+init (dateFormat: String){
+    let console = ConsoleDestination()
+    let file = FileDestination()
+    file.logFileURL = URL(fileURLWithPath: "/tmp/app_info.log")
+    console.format = dateFormat
+
+    log.addDestination(console)
+    log.addDestination(file)
 }
 ```
-In deze functie wordt er onderscheid gemaakt tussen de kleur bovenin de gradient en de kleur onderin de gradient. Beide kleuren worden middels RGB bepaald. Deze kleuren worden meegegeven aan de CAGradientLayer klasse in de vorm van een array. Hierna wordt er bepaald vanaf waar tot waar het gradient moet lopen, dit is de 'locations' property.
+Naast de init kun je in de LoggingService voor elk niveau een functie vinden die soortgelijk is aan de volgende:
+```
+func logVerbose(message: String) {
+    log.verbose("💜 : [\(message)]")
+}
+```
+Het aanroepen van zulke methodes produceert zowel in het .log bestand een entry als in de Swift console (zie afbeelding).
+
+Middels het command 'tail -f /tmp/app_info.log' kan het de file met de log contents worden weergegeven in de terminal.
 
 ###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
