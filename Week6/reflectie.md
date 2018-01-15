@@ -4,7 +4,7 @@ Reflectie
 ### Vorige week
 
 ### Afgelopen week
-Afgelopen week had ik mij vooral gericht op het leveren van concrete resultaten voordat de vakantie periode in zou gaan, ook had ik mij voorgenomen niet eerder de school te verlaten dan 16:30. Deze doelen zijn gedeeltelijk behaald. Zo hebbenn wij als groep wel de use cases weten af te ronden die ik had voorgenomen, echter moeten deze nog wel worden gemerged in een geheel. Mijn tweede doel is niet behaald aangezien er wederom dagen zijn geweest waarop de groep eerder weg is gegaan. Ik denk echter dat dit niet heel erg is aangezien er wel veel resultaat is geboekt en we naar mijn idee goed op schema lopen. 
+Afgelopen week had ik mij vooral gericht op het leveren van concrete resultaten voordat de vakantie periode in zou gaan, ook had ik mij voorgenomen niet eerder de school te verlaten dan 16:30. Deze doelen zijn gedeeltelijk behaald. Zo hebben wij als groep wel de use cases weten af te ronden die ik had voorgenomen, echter moeten deze nog wel worden gemerged in een geheel. Mijn tweede doel is niet behaald aangezien er wederom dagen zijn geweest waarop de groep eerder weg is gegaan. Ik denk echter dat dit niet heel erg is aangezien er wel veel resultaat is geboekt en we naar mijn idee goed op schema lopen. 
 
 #####  Wat ging er afgelopen week goed?
 Deze week vond ik dat de motivatie erg hoog lag bij de groep, hierdoor zijn er heel veel designs afgemaakt en is er in Atomic zelfs een prototype gerealiseerd waardoor het eindelijk mogelijk is om te gaan testen bij de doelgroep. Hierdoor heb ik persoonlijk weer nieuwe hoop gekregen in de haalbaarheid van dit project.
