@@ -1,0 +1,6 @@
+framework module Pods_EurekaForms {
+  umbrella header "Pods-EurekaForms-umbrella.h"
+
+  export *
+  module * { export * }
+}

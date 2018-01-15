@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04054E1F2003A39E00A747B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04054E1E2003A39E00A747B7 /* AppDelegate.swift */; };
+		04054E212003A39E00A747B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04054E202003A39E00A747B7 /* ViewController.swift */; };
+		04054E242003A39E00A747B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04054E222003A39E00A747B7 /* Main.storyboard */; };
+		04054E262003A39E00A747B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04054E252003A39E00A747B7 /* Assets.xcassets */; };
+		04054E292003A39E00A747B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04054E272003A39E00A747B7 /* LaunchScreen.storyboard */; };
+		AE6D9A65AA5FC6F0DF22A06E /* Pods_EurekaForms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D319A5CAF31DE08BB468A46C /* Pods_EurekaForms.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04054E1B2003A39E00A747B7 /* EurekaForms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaForms.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04054E1E2003A39E00A747B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04054E202003A39E00A747B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04054E232003A39E00A747B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04054E252003A39E00A747B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04054E282003A39E00A747B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04054E2A2003A39E00A747B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094A75EA401EAF60EED8D964 /* Pods-EurekaForms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaForms.release.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaForms/Pods-EurekaForms.release.xcconfig"; sourceTree = "<group>"; };
+		7A7E62D94ABF120B28613CDD /* Pods-EurekaForms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaForms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EurekaForms/Pods-EurekaForms.debug.xcconfig"; sourceTree = "<group>"; };
+		D319A5CAF31DE08BB468A46C /* Pods_EurekaForms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaForms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04054E182003A39E00A747B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6D9A65AA5FC6F0DF22A06E /* Pods_EurekaForms.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04054E122003A39E00A747B7 = {
+			isa = PBXGroup;
+			children = (
+				04054E1D2003A39E00A747B7 /* EurekaForms */,
+				04054E1C2003A39E00A747B7 /* Products */,
+				89C2B0765CFCF3CB1E482F6E /* Pods */,
+				F0DC691E3E7F06B1047EC063 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04054E1C2003A39E00A747B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04054E1B2003A39E00A747B7 /* EurekaForms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04054E1D2003A39E00A747B7 /* EurekaForms */ = {
+			isa = PBXGroup;
+			children = (
+				04054E1E2003A39E00A747B7 /* AppDelegate.swift */,
+				04054E202003A39E00A747B7 /* ViewController.swift */,
+				04054E222003A39E00A747B7 /* Main.storyboard */,
+				04054E252003A39E00A747B7 /* Assets.xcassets */,
+				04054E272003A39E00A747B7 /* LaunchScreen.storyboard */,
+				04054E2A2003A39E00A747B7 /* Info.plist */,
+			);
+			path = EurekaForms;
+			sourceTree = "<group>";
+		};
+		89C2B0765CFCF3CB1E482F6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7E62D94ABF120B28613CDD /* Pods-EurekaForms.debug.xcconfig */,
+				094A75EA401EAF60EED8D964 /* Pods-EurekaForms.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0DC691E3E7F06B1047EC063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D319A5CAF31DE08BB468A46C /* Pods_EurekaForms.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04054E1A2003A39E00A747B7 /* EurekaForms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04054E2D2003A39E00A747B7 /* Build configuration list for PBXNativeTarget "EurekaForms" */;
+			buildPhases = (
+				B578E9CFE6B3E3EE68B74B93 /* [CP] Check Pods Manifest.lock */,
+				04054E172003A39E00A747B7 /* Sources */,
+				04054E182003A39E00A747B7 /* Frameworks */,
+				04054E192003A39E00A747B7 /* Resources */,
+				78F2DEBAB786E7459B3CAF63 /* [CP] Embed Pods Frameworks */,
+				3FBF51BA338FDC670F8E537E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EurekaForms;
+			productName = EurekaForms;
+			productReference = 04054E1B2003A39E00A747B7 /* EurekaForms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04054E132003A39E00A747B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					04054E1A2003A39E00A747B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04054E162003A39E00A747B7 /* Build configuration list for PBXProject "EurekaForms" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04054E122003A39E00A747B7;
+			productRefGroup = 04054E1C2003A39E00A747B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04054E1A2003A39E00A747B7 /* EurekaForms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04054E192003A39E00A747B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04054E292003A39E00A747B7 /* LaunchScreen.storyboard in Resources */,
+				04054E262003A39E00A747B7 /* Assets.xcassets in Resources */,
+				04054E242003A39E00A747B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FBF51BA338FDC670F8E537E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaForms/Pods-EurekaForms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F2DEBAB786E7459B3CAF63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EurekaForms/Pods-EurekaForms-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EurekaForms/Pods-EurekaForms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B578E9CFE6B3E3EE68B74B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaForms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04054E172003A39E00A747B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04054E212003A39E00A747B7 /* ViewController.swift in Sources */,
+				04054E1F2003A39E00A747B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04054E222003A39E00A747B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04054E232003A39E00A747B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04054E272003A39E00A747B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04054E282003A39E00A747B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04054E2B2003A39E00A747B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04054E2C2003A39E00A747B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04054E2E2003A39E00A747B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7E62D94ABF120B28613CDD /* Pods-EurekaForms.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59VJ7954M2;
+				INFOPLIST_FILE = EurekaForms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ica.MAD.Minor.544271.EurekaForms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04054E2F2003A39E00A747B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094A75EA401EAF60EED8D964 /* Pods-EurekaForms.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59VJ7954M2;
+				INFOPLIST_FILE = EurekaForms/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ica.MAD.Minor.544271.EurekaForms;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04054E162003A39E00A747B7 /* Build configuration list for PBXProject "EurekaForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04054E2B2003A39E00A747B7 /* Debug */,
+				04054E2C2003A39E00A747B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04054E2D2003A39E00A747B7 /* Build configuration list for PBXNativeTarget "EurekaForms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04054E2E2003A39E00A747B7 /* Debug */,
+				04054E2F2003A39E00A747B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04054E132003A39E00A747B7 /* Project object */;
+}
