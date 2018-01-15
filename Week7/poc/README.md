@@ -25,5 +25,9 @@ Het resultaat is zoals beschreven in de test opzet.
 code
 ```
 
+Resources:
+* http://www.cupcakeipsum.com/
+* https://github.com/Ramotion/paper-onboarding
+
 ###### Terugkoppeling hypothese
 De app die is voortgekomen uit het testen bewijst in zijn volledigheid de gestelde hypothese.
