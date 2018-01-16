@@ -22,7 +22,7 @@ Het resultaat is zoals beschreven in de test opzet.
 
 De app heeft twee view controllers en geen entry point. De eerste view controller is de onboarding controller en de tweede is de hoofd applicatie. De volgorde waarin de controllers worden bereikt wordt bepaald door user defaults. Deze wordt gezet op het moment dat de app bereikt wordt via de onboarding route. Dit is te zien in de functie die  vast zit aan de 'getStartedButton', waar de user op moet klikken op het moment dat deze alle introductie schermen heeft doorgeklikt:
 
-```
+```swift
 @IBAction func gotStarted(_ sender: UIButton) {
 let userDefaults = UserDefaults.standard
 userDefaults.set(true, forKey: "onboardingComplete")
